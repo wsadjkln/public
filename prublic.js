@@ -1,3 +1,7 @@
+recents()
+sleep(1000)
+id("dismiss_task").className("android.widget.ImageView").desc("移除火山极速版。").findOne().click()
+
 //火山去邀请好友
 threads.start(function () {
     while (true) {
